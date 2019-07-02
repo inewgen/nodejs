@@ -1,0 +1,13 @@
+version: '2'
+services:
+  rest_api:
+      container_name: rest_api
+      volumes:
+        - ./:/src
+      ports:
+        - "3000:3000"
+      environment:
+        - ENV=dev
+      build:
+        context: .
+        dockerfile: 'docker/Dockerfile'
