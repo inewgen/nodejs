@@ -53,5 +53,9 @@ Route.group(() => {
 
   // Users
   Route.get('users', 'UserController.index')
+  Route.post('users', 'UserController.store')
+  Route.get('users/:id', 'UserController.show').middleware('findUser')
+  Route.patch('users/:id', 'UserController.update').middleware('findUser')
+  Route.delete('users/:id', 'UserController.delete').middleware('findUser')
 
 }).prefix('api/v1').middleware('auth')
