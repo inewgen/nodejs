@@ -27,7 +27,7 @@ adonis serve --dev
 http://localhost:3333 or http://127.0.0.1:3333
 ```
 
-#Run with docker
+## Run with docker
 
 ```bash
 # run on project directory
