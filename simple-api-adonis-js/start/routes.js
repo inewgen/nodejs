@@ -24,34 +24,34 @@ Route.get('/', ({ request, response }) => {
 
 // Customers
 Route.get('api/v1/customers', 'CustomerController.index').middleware('auth')
-Route.get('customers/:id', 'CustomerController.show').middleware([
+Route.get('api/v1/customers/:id', 'CustomerController.show').middleware([
   'findCustomer'
 ])
-Route.post('customers', 'CustomerController.store')
-Route.patch('customers/:id', 'CustomerController.update').middleware([
+Route.post('api/v1/customers', 'CustomerController.store')
+Route.patch('api/v1/customers/:id', 'CustomerController.update').middleware([
   'findCustomer'
 ])
-Route.delete('customers/:id', 'CustomerController.delete').middleware([
+Route.delete('api/v1/customers/:id', 'CustomerController.delete').middleware([
   'findCustomer'
 ])
 
 // projects
-Route.get('projects', 'ProjectController.index')
-Route.get('projects/:id', 'ProjectController.show').middleware(['findProject'])
-Route.post('projects', 'ProjectController.store')
-Route.patch('projects/:id', 'ProjectController.update').middleware([
+Route.get('api/v1/projects', 'ProjectController.index')
+Route.get('api/v1/projects/:id', 'ProjectController.show').middleware(['findProject'])
+Route.post('api/v1/projects', 'ProjectController.store')
+Route.patch('api/v1/projects/:id', 'ProjectController.update').middleware([
   'findProject'
 ])
-Route.delete('projects/:id', 'ProjectController.delete').middleware([
+Route.delete('api/v1/projects/:id', 'ProjectController.delete').middleware([
   'findProject'
 ])
 
 // tasks
-Route.get('tasks', 'TaskController.index')
-Route.get('tasks/:id', 'TaskController.show').middleware(['findTask'])
-Route.post('tasks', 'TaskController.store')
-Route.patch('tasks/:id', 'TaskController.update').middleware(['findTask'])
-Route.delete('tasks/:id', 'TaskController.delete').middleware(['findTask'])
+Route.get('api/v1/tasks', 'TaskController.index')
+Route.get('api/v1/tasks/:id', 'TaskController.show').middleware(['findTask'])
+Route.post('api/v1/tasks', 'TaskController.store')
+Route.patch('api/v1/tasks/:id', 'TaskController.update').middleware(['findTask'])
+Route.delete('api/v1/tasks/:id', 'TaskController.delete').middleware(['findTask'])
 
 Route.post('/auth/register', 'AuthController.register')
 Route.post('/auth/login', 'AuthController.login')
