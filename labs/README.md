@@ -1,14 +1,12 @@
-# Simple API with AdonisJS
+# Simple API with AdonisJS and Docker
 
-This project is from the [Build a Simple API with AdonisJS course](https://www.youtube.com/watch?v=5wzcRtrRVd4&list=PLoCq0WM_wHG-rFQEsShMQkgGcTO1Hmnvx) found on YouTube.
-
-[Subscribe to the channel](https://www.youtube.com/channel/UCF5w1QdWroWOoxxXMgp88AQ?sub_confirmation=1) to catch all my videos. I publish new tutorials throughout the week on VueJS and NodeJS / AdonisJS.
+This project is from the [Build a Simple API with AdonisJS course].
 
 ## Getting Started
 
 ```bash
 # clone to current directory
-git clone https://github.com/patrickodacre/simple-api-adonis-js.git .
+git clone https://github.com/inewgen/nodejs.git .
 
 # install dependencies
 npm install
@@ -25,7 +23,17 @@ adonis migration:run
 # Start the dev server
 adonis serve --dev
 ```
+# Please try
+http://localhost:3333 or http://127.0.0.1:3333
+```
+
+Run with docker
+
+```bash
+# run on project directory
+docker-compose up -d
+```
 
 ## Questions?
 
-Please reach out to me on [YouTube](https://www.youtube.com/watch?v=5wzcRtrRVd4&list=PLoCq0WM_wHG-rFQEsShMQkgGcTO1Hmnvx) or [Twitter](https://twitter.com/patrickodacre).
+Please reach out to me on [Website](http://www.inewgen.com).
