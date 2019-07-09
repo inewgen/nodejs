@@ -19,7 +19,6 @@ Route.get('/', ({ request, response }) => {
   response.json({
     greeting: 'Hello world in JSON'
   })
-  //   return { greeting: 'Hello world in JSON' }
 })
 
 // Customers
@@ -53,5 +52,9 @@ Route.post('api/v1/tasks', 'TaskController.store')
 Route.patch('api/v1/tasks/:id', 'TaskController.update').middleware(['findTask'])
 Route.delete('api/v1/tasks/:id', 'TaskController.delete').middleware(['findTask'])
 
+// Users
+Route.get('api/v1/users', 'UserController.index').middleware('auth')
+
+// Auth
 Route.post('/auth/register', 'AuthController.register')
 Route.post('/auth/login', 'AuthController.login')
