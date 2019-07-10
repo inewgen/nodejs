@@ -1,16 +1,16 @@
-# 1. Grab the latest node image
 FROM node:latest
-# 2. Set the working directory inside the container to /app
-WORKDIR /app
-# 3. Add the .env to the directory (We need those variables)
-ADD .env /app
-# 4. Expose port defined in .env file
-EXPOSE ${PORT}
-# 5. Add package.json to the directory
-ADD package.json /app
-# 6. Install dependencies
+
+LABEL authors="Suraches <s.suraches@hotmail.com>"
+
+RUN mkdir -p /opt/app/
+ENV TERM=xterm APP=/opt/app
+
+WORKDIR $APP
+ADD package.json $APP/
+
 RUN npm install
-# 7. Copy the rest into directory
-COPY . /app
-# 8. Start the app inside the container
+
+COPY . $APP/
+COPY .env.example.docker ./.env
+
 CMD ["npm", "start"]
