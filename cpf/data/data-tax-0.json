@@ -1,1 +1,37 @@
-{"BUSINESS_TYPE" :  "255" , "LASTUPDATE" :  "19/07/2019 17:13:35" ,"COUNT" : 6,"TAXES" :[{"CODE":"TXCOD00","RATE":"0","RATE_UNIT":"PERCENTAGE"},{"CODE":"TXCOD07","RATE":"7","RATE_UNIT":"PERCENTAGE"},{"CODE":"TXCOD10","RATE":"10","RATE_UNIT":"PERCENTAGE"},{"CODE":"TXCOD99","RATE":"","RATE_UNIT":"PERCENTAGE"},{"CODE":"TXCODWH","RATE":"3","RATE_UNIT":"PERCENTAGE"},{"CODE":"TXCODPT","RATE":"7","RATE_UNIT":"PERCENTAGE"}]}
+{
+  "BUSINESS_TYPE": "255",
+  "LASTUPDATE": "19/07/2019 17:13:35",
+  "COUNT": 6,
+  "TAXES": [
+    {
+      "CODE": "TXCOD00",
+      "RATE": "0",
+      "RATE_UNIT": "PERCENTAGE"
+    },
+    {
+      "CODE": "TXCOD07",
+      "RATE": "7",
+      "RATE_UNIT": "PERCENTAGE"
+    },
+    {
+      "CODE": "TXCOD10",
+      "RATE": "10",
+      "RATE_UNIT": "PERCENTAGE"
+    },
+    {
+      "CODE": "TXCOD99",
+      "RATE": "",
+      "RATE_UNIT": "PERCENTAGE"
+    },
+    {
+      "CODE": "TXCODWH",
+      "RATE": "3",
+      "RATE_UNIT": "PERCENTAGE"
+    },
+    {
+      "CODE": "TXCODPT",
+      "RATE": "7",
+      "RATE_UNIT": "PERCENTAGE"
+    }
+  ]
+}

@@ -1,1 +1,102 @@
-{"BUSINESS_TYPE" :  "255" , "LASTUPDATE" :  "19/07/2019 17:13:36" ,"COUNT" : 19,"ITEMS" :[{"TYPE":"TNTYP10","CODE":"0025","DESC":"เหรียญ 0.25 บาท"},{"TYPE":"TNTYP10","CODE":"000025","DESC":"เหรียญ 0.25 บาท"},{"TYPE":"TNTYP10","CODE":"000050","DESC":"เหรียญ 0.50 บาท"},{"TYPE":"TNTYP10","CODE":"000100","DESC":"เหรียญ 1 บาท"},{"TYPE":"TNTYP10","CODE":"000500","DESC":"เหรียญ 5 บาท"},{"TYPE":"TNTYP10","CODE":"001000","DESC":"เหรียญ 10 บาท"},{"TYPE":"TNTYP10","CODE":"002000","DESC":"ธนบัตร 20 บาท"},{"TYPE":"TNTYP10","CODE":"005000","DESC":"ธนบัตร 50 บาท"},{"TYPE":"TNTYP10","CODE":"100000","DESC":"ธนบัตร 1000 บาท"},{"TYPE":"TNTYP10","CODE":"050000","DESC":"ธนบัตร 500 บาท"},{"TYPE":"TNTYP10","CODE":"010000","DESC":"ธนบัตร 100 บาท"},{"TYPE":"TNTYP20","CODE":"CPN1002","DESC":"CPN 1 - Price Override"},{"TYPE":"TNTYP20","CODE":"NTCPN1001","DESC":"Nontax CPN 1 - 001"},{"TYPE":"TNTYP20","CODE":"TXCPN1001","DESC":"Tax CPN 1 - 001"},{"TYPE":"TNTYP20","CODE":"01","DESC":"คูปองบาร์โค้ด"},{"TYPE":"TNTYP20","CODE":"001","DESC":"คูปอง"},{"TYPE":"TNTYP21","CODE":"NTCPN2001","DESC":"Nontax CPN 2 - 001"},{"TYPE":"TNTYP21","CODE":"TXCPN2001","DESC":"Tax CPN 2 - 001"},{"TYPE":"TNTYP40","CODE":"CREDIT","DESC":"บัตรเครดิต"}]}
+{
+  "BUSINESS_TYPE": "255",
+  "LASTUPDATE": "19/07/2019 17:13:36",
+  "COUNT": 19,
+  "ITEMS": [
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "0025",
+      "DESC": "เหรียญ 0.25 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "000025",
+      "DESC": "เหรียญ 0.25 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "000050",
+      "DESC": "เหรียญ 0.50 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "000100",
+      "DESC": "เหรียญ 1 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "000500",
+      "DESC": "เหรียญ 5 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "001000",
+      "DESC": "เหรียญ 10 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "002000",
+      "DESC": "ธนบัตร 20 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "005000",
+      "DESC": "ธนบัตร 50 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "100000",
+      "DESC": "ธนบัตร 1000 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "050000",
+      "DESC": "ธนบัตร 500 บาท"
+    },
+    {
+      "TYPE": "TNTYP10",
+      "CODE": "010000",
+      "DESC": "ธนบัตร 100 บาท"
+    },
+    {
+      "TYPE": "TNTYP20",
+      "CODE": "CPN1002",
+      "DESC": "CPN 1 - Price Override"
+    },
+    {
+      "TYPE": "TNTYP20",
+      "CODE": "NTCPN1001",
+      "DESC": "Nontax CPN 1 - 001"
+    },
+    {
+      "TYPE": "TNTYP20",
+      "CODE": "TXCPN1001",
+      "DESC": "Tax CPN 1 - 001"
+    },
+    {
+      "TYPE": "TNTYP20",
+      "CODE": "01",
+      "DESC": "คูปองบาร์โค้ด"
+    },
+    {
+      "TYPE": "TNTYP20",
+      "CODE": "001",
+      "DESC": "คูปอง"
+    },
+    {
+      "TYPE": "TNTYP21",
+      "CODE": "NTCPN2001",
+      "DESC": "Nontax CPN 2 - 001"
+    },
+    {
+      "TYPE": "TNTYP21",
+      "CODE": "TXCPN2001",
+      "DESC": "Tax CPN 2 - 001"
+    },
+    {
+      "TYPE": "TNTYP40",
+      "CODE": "CREDIT",
+      "DESC": "บัตรเครดิต"
+    }
+  ]
+}
