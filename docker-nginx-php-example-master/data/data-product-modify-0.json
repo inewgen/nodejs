@@ -1,0 +1,475 @@
+{
+  "BUSINESS_TYPE": "255",
+  "LASTUPDATE": "19/07/2019 17:13:38",
+  "COUNT": 78,
+  "ITEMS": [
+    {
+      "PRODUCT_CODE": "000000000010000001",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000001",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/05/2019 12:00:00 AM",
+      "END_DATE": "30/06/2019 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010000001",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000001",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000002",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000002",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000002",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000003",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000003",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000003",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000004",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000004",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000004",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000005",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000005",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000005",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000006",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000006",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000006",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000007",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000007",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000007",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000008",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000009",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000010",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000011",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000012",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000013",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000014",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000015",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000016",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000017",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000018",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000019",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000020",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000021",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000022",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000023",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000024",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000025",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000026",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000027",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000028",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000029",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000030",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000031",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000031",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000031",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000032",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000032",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000032",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000033",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000033",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010000033",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "01/01/0001 12:00:00 AM",
+      "END_DATE": ""
+    },
+    {
+      "PRODUCT_CODE": "000000000010100001",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100001",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100001",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100002",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100002",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100002",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100003",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100003",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100003",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100004",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100004",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100004",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100005",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100005",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100005",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100006",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100006",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100006",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100007",
+      "MODIFY_GROUP": "1",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100007",
+      "MODIFY_GROUP": "2",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000010100007",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000023060137",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000023060138",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    },
+    {
+      "PRODUCT_CODE": "000000000023081034",
+      "MODIFY_GROUP": "3",
+      "START_DATE": "23/05/2019 12:00:00 AM",
+      "END_DATE": "31/12/2099 12:00:00 AM"
+    }
+  ]
+}
