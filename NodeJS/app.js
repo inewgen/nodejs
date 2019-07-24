@@ -1,8 +1,6 @@
-var fs = require('fs')
-var data = 'Suraches nodejs mongodb express';
-var writerStream = fs.createReadStream('output.txt')
-writerStream.push(data, 'utf8')
-writerStream.end
-writerStream.on('finish', () => {
-  console.log("Output Finish")
+var express = require('express')
+var routing = express()
+routing.get('/home', (req, res) => {
+  res.send('<h1>Helloworld</h1>')
 })
+routing.listen(3000)
