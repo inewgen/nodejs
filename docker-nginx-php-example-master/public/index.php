@@ -8,6 +8,18 @@ $combo_product = json_decode($combo_product, true);
 $modify_group = file_get_contents("../data/data-modify-group-0.json");
 $modify_group = json_decode($modify_group, true);
 
+$product_modify = file_get_contents("../data/data-product-modify-0.json");
+$product_modify = json_decode($product_modify, true);
+
+$store = file_get_contents("../data/data-store-0.json");
+$store = json_decode($store, true);
+
+$tax = file_get_contents("../data/data-tax-0.json");
+$tax = json_decode($tax, true);
+
+$tender = file_get_contents("../data/data-tender-0.json");
+$tender = json_decode($tender, true);
+
 function getProductMap($product)
 {
 	$product_map = [];
@@ -88,8 +100,8 @@ function getComboProduct($data, $product_map)
 {
 	$result = [];
 	foreach ($data['ITEMS'] as $key => $value) {
-		$value['product_main'] = $product_map[$value['PRODUCT_CODE_MM']];
-		$value['product'] = $product_map[$value['PRODUCT_CODE']];
+		$value['product_main_relation'] = $product_map[$value['PRODUCT_CODE_MM']];
+		$value['product_relation'] = $product_map[$value['PRODUCT_CODE']];
 		$result[$key] = $value;
 	}
 	// echo json_encode($result);die();
@@ -110,7 +122,19 @@ function getModifyGroup($data, $product_map)
 {
 	$result = [];
 	foreach ($data['ITEMS'] as $key => $value) {
-		$value['product'] = $product_map[$value['PRODUCT_CODE']];
+		$value['product_relation'] = $product_map[$value['PRODUCT_CODE']];
+		$result[$value['MODIFY_GROUP']][$key] = $value;
+	}
+	// echo json_encode($result);die();
+	return $result;
+}
+
+function getProductModify($data, $product_map)
+{
+	$result = [];
+	foreach ($data['ITEMS'] as $key => $value) {
+		$value['product_relation'] = $product_map[$value['PRODUCT_CODE']];
+		// $value = array_merge($value, $product_map[$value['PRODUCT_CODE']]);
 		$result[$value['MODIFY_GROUP']][$key] = $value;
 	}
 	// echo json_encode($result);die();
@@ -131,6 +155,18 @@ if ($_GET['show'] == 'product_recommend') {
 
 } elseif ($_GET['show'] == 'modify_group') {
 	$response_data = getModifyGroup($modify_group, getProductIgnoreCombo($product_map));
+
+} elseif ($_GET['show'] == 'product_modify') {
+	$response_data = getProductModify($product_modify, getProductIgnoreCombo($product_map));
+
+} elseif ($_GET['show'] == 'store') {
+	$response_data = $store;
+
+} elseif ($_GET['show'] == 'tax') {
+	$response_data = $tax;
+
+} elseif ($_GET['show'] == 'tender') {
+	$response_data = $tender;
 
 } else {
 	$response_data = $product_map;
